@@ -40,6 +40,8 @@ Log commands
  View last few commits= git log -<no of commits you want to view>
  View logs between specific dates= git log --after <date> --before <date>
  Detailed view of logs in one line= git log --stat --oneline
+ Graphical commands= git log --graph
+ Graphical commands= git log --graph --oneline
 
 Renameing a file from git
  git mv <old name> <new name>
