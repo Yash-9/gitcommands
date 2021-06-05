@@ -82,26 +82,26 @@ Configure git ignore to your system
 Checkout Commands:
  To switch to a branch = git checkout <branchname>
  To switch to a remote branch = git checkout <remotebranch>
- To switch to a commit git checkout commitid
- To switch to a tag git checkout tagname
+ To switch to a commit= git checkout commitid
+ To switch to a tag= git checkout tagname
 
 
 Clean Command
- To view the implication of the clean command - Git clean –dry-run
- To force delete the file from the repo - Git clean -f
- To delete dir - Git clean -f -d
- To delete all the files and dir - Git clean -f -d
- To delete all the ignored file in one go - Git clean -f -x
- To delete all the files and dir incliding ignored files - Git clean -f -d -x
+ To view the implication of the clean command = Git clean –dry-run
+ To force delete the file from the repo = Git clean -f
+ To delete dir = Git clean -f -d
+ To delete all the files and dir = Git clean -f -d
+ To delete all the ignored file in one go = Git clean -f -x
+ To delete all the files and dir incliding ignored files = Git clean -f -d -x
 
 RM Command
- Removes the file from the git and the file system - git rm -f <filename>
- Removes the file only from git repo but actual file will still be there in the project – git rm --cached <filename>
+ Removes the file from the git and the file system = git rm -f <filename>
+ Removes the file only from git repo but actual file will still be there in the project = git rm --cached <filename>
 
 Reset Command
- Move the file to Staging area= git reset --soft <commit-id> 
- Move the file to unstaged area= git reset --mixed <commit-id> 
- Move the files out of records or reverts the file to the stage of previous commited stage git reset --hard <commit-id>
+ Move the file to Staging area = git reset --soft <commit-id> 
+ Move the file to unstaged area = git reset --mixed <commit-id> 
+ Move the files out of records or reverts the file to the stage of previous commited stage = git reset --hard <commit-id>
 
 Revert Command
  git revert <commitID>
@@ -111,14 +111,14 @@ Amend Command
  git commit --amend -m “message”
 
 Tag Command
- Annotated tag= git tag -a <tagname> <commit-id> -m "Message here"
- Lightweight tag= git tag <tag name> <commit-id>
- Get the list of tags= git tag --list
- Get the list of tags with their messages= git tag -n
- Delete a tag= git tag -d <tagname>
- View a specific tag= git show <tagname> 
- Pushing tags to remote repo= git push --tags
- Delete tag from remote= git push --delete origin <tagname>
+ Annotated tag = git tag -a <tagname> <commit-id> -m "Message here"
+ Lightweight tag = git tag <tag name> <commit-id>
+ Get the list of tags = git tag --list
+ Get the list of tags with their messages = git tag -n
+ Delete a tag = git tag -d <tagname>
+ View a specific tag = git show <tagname> 
+ Pushing tags to remote repo = git push --tags
+ Delete tag from remote = git push --delete origin <tagname>
 
 Stashing Commands
  To stash all the files – git stash
